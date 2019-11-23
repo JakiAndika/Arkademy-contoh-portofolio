@@ -1,13 +1,18 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* *
+    ">" untuk memilih fokus ke dari parent 
+    menuju child tertentu didalamnya
+    contoh .s>.s
+    "~" untuk memilih  component sejajar 
+    contoh .s~.s
+    "+" untuk memilih component 1 sejajar dibawahnya
+    contoh .s+.s
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+* */
+
+/** global fontsize **/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+:root {
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
 }
