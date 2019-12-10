@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Barlow|Source+Sans+Pro&display=swap');
+.wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}
+
+.with-image {
+  background-image: url("./image1.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.flex-wrapper {
+  position: absolute;
+  left: 18%;
+  right: 5%;
+  top: 20%;
+  bottom: 12%;
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 86px;
+  color: #FFFFFF;
+}
+
+.color {
+  position: absolute;
+  background: #FF6E40;
+  right: 65%;
+}
+
+.description {
+  position: absolute;
+  width: 678px;
+  height: 190px;
+  left: 232px;
+  top: 230px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-style: normal;
+  font-size: 25px;
+  line-height: 38px;
+  color: #FFFFFF;
+  transform: rotate(-0.02deg);
+}
+
+.line {
+  position: absolute;
+  left: 18%;
+  right: 49%;
+  top: 80%;
+  bottom: 10%;
+  border: 3px solid #FF6E40;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.flex-form {
+  position: absolute;
+  left: 30%;
+  right: 25%;
+  top: 10%;
+  bottom: 13%;
+  font-family: 'Barlow', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 43px;
+  color: #FF6E40;
+}
+
+.opacity {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.right {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: 1200px;
+  color: white;
+  top: 280px;
+  font-size: 55px;
+}
+
+.left {
+  position: absolute;
+  width: 72px;
+  height: 72px;
+  left: 20px;
+  color: white;
+  top: 270px;
+  font-size: 55px;
+}
